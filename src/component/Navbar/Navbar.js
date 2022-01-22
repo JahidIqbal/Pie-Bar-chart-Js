@@ -67,13 +67,13 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <div className='row'>
-                        <div className=' card col-md-6 '>
+                    <div className='row justify-content-center align-items-center'>
+                        <div className=' justify-content-center align-item-center col-md-6 col-sm-12'>
                             <h2 className='bold '>My Skills</h2>
                             <Graph />
 
                         </div>
-                        <div className='w-50 card justify-content-center align-item-center col-md-6'>
+                        <div className='justify-content-center align-item-center col-md-6 col-sm-12'>
                             <Bchart />
                         </div>
                     </div>
