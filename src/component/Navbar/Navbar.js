@@ -2,11 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import image from '../../images/istockphoto-1296601764-170667a.jpg'
 import Bchart from '../Bchart/Bchart';
-
-
-
-
-
 import Graph from '../Graph/Graph';
 
 import './Navbar.css'
@@ -17,11 +12,11 @@ const Navbar = () => {
             <div className="row">
                 <div className="col-md-2 col-sm-4 sidebar1">
                     <div className="logo">
-                        <img src={image} alt="" className='img' />
+                        <img src={image} alt="" className='img-fluid ' />
                     </div>
                     <br />
-                    <div className="left-navigation">
-                        <ul className="list">
+                    <div className="left-navigation mb-4 ">
+                        <ul className="list ">
 
                             <li>
                                 <h2>DashBoard</h2>
@@ -73,7 +68,8 @@ const Navbar = () => {
                             <Graph />
 
                         </div>
-                        <div className='justify-content-center align-item-center col-md-6 col-sm-12'>
+                        <div className='justify-content-center align-item-center col-md-6 col-sm-12  overflow-hidden'>
+                            <h2 className='bold '>Net Skills</h2>
                             <Bchart />
                         </div>
                     </div>
